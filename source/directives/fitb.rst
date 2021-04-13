@@ -95,10 +95,6 @@ Known limitations
 The text for matches must appear on a single line.
 No newlines are allowed.
 
-The markup ``|blank|`` conflicts with the standard Sphinx substitution syntax.
-The blank markup should be placed within 'code' markup: \`\`|blank|\`\`,
-otherwise Sphinx complains about an undefined reference to ``|blank|``.
-
 Examples
 --------
 A simple example.
