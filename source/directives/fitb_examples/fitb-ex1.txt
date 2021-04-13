@@ -3,7 +3,7 @@
 
    Fill in the blanks to make the following sentence: "The red car drove away."
 
-   The ``|blank|`` car drove ``|blank|``.
+   The |blank| car drove |blank|.
 
    -   :red: Correct.
        :x: Incorrect. Try 'red'.
