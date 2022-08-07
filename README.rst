@@ -1,7 +1,7 @@
 Runestone Author's Guide
 ========================
 
-The build version of this guide is `Here <http://runestoneinteractive.org/build/html/index.html>`_
+The built version of this guide is `Here <https://runestone.academy/ns/books/published/authorguide/index.html?mode=browsing>`_
 
 
 Help us keep the documentation up to date!  Pull Requests and Issues are welcome!
