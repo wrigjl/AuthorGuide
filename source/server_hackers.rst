@@ -54,7 +54,7 @@ The controllers folder contains all of the endpoints for making application requ
 
 Every controller file may have a folder with the same name under the views folder.  Each function in a controller may have a corresponding html file inside said folder.  An example:  Suppose you have a controller `/runestone/admin/listcourses` The list courses function would get all of the database information needed to list all of the courses and store that information in a python dictionary.  The listcourses function returns that dictionary, and web2py marries that information with the template file in `/runestone/views/admin/listcourses.html`. The only time your would not have a corresponding html file is when your controller is meant to return JSON or XML.  In this case you should make the request to `/runestone/ajax/foo.json`. This will ensure that the foo function in ajax is called, and the .json extension lets web2py know to set up the content-type headers to indicate that it is JSON coming back.  If you do not have an html file in your view folder web2py will default to `generic.html` file in the main views folder.  This actually works fine when you are prototyping as web2py does a decent job of trying to display whatever stuff you send it in a dictionary.
 
-Generally the  web2py templating system is a lot like Jinja2, but with a couple of syntactic differences to get used to.  For example whereas in Jinja you can reference a variable like `{{foo}}` in web2py you need to say `{{=foo}}`
+Generally the  web2py templating system is a lot like Jinja2, but with a couple of syntactic differences to get used to.  For example whereas in Jinja you can reference a variable like `{​{foo}​}` in web2py you need to say `{​{=foo}​}`
 
 More About web2py
 -----------------
