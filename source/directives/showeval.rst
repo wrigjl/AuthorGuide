@@ -13,8 +13,8 @@ Synopsis
       + --- Content area ---+
       | Pre-requisite information and code
       | ~~~~
-      | some {{code}} followed by {{replacement code}}
-      | more {{code}} followed by {{replacement code}}  ##with optional comment
+      | some {​{code}} followed by {​{replacement code}}
+      | more {​{code}} followed by {​{replacement code}}  ##with optional comment
       + --------------------+
 
 
@@ -38,11 +38,11 @@ The steps section has special formatting requirements:
 
 - Each step must be wholly contained on a line, one animation step per line.
 - Blank lines are OK.
-- Use double curly braces: ``{{`` and ``}}`` to mark 
+- Use double curly braces: ``{​{`` and ``}}`` to mark 
   text replaced during an animation step.
   Only 1 set of replacement text per line.
 - The end braces of the original text and start of the replacement braces 
-  must be exactly ``}}{{`` - no spaces are permitted.
+  must be exactly ``}}{​{`` - no spaces are permitted.
 
   The braces surround the part of the line that should be replaced,
   followed by the replacement text delimited using double curly braces. 
