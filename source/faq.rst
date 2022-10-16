@@ -45,7 +45,7 @@ LTI will save me.  Its almost there, and its almost ready.  The best solution in
 Whatever Brad, How do I learn more about the instructor interface
 -----------------------------------------------------------------
 
-I have made a `very informal set of videos <https://www.youtube.com/channel/UCAfQvSLv5senKZHfaycIz8w>`_for just this purpose.
+I have made a `very informal set of videos <https://www.youtube.com/channel/UCAfQvSLv5senKZHfaycIz8w>`__ for just this purpose.
 
 
 Help!  I cannot log in.  Every time I try to log in, I have to reset my password!

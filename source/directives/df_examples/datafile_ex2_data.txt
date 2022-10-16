@@ -1,4 +1,4 @@
-.. datafile:: ex2.txt
+.. datafile:: ex2_text
    :edit:
 
    here is the first line in the data file

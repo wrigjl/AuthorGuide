@@ -1,7 +1,8 @@
 .. parsonsprob:: pa-ex1-cpp
    :language: c++
 
-   Construct a block of code that correctly implements the accumulator pattern.
+   Construct a block of code that correctly implements the
+   **accumulator** pattern.
    -----
    template < class InputIt, class T >
    T sum(InputIt first, InputIt last, T value)

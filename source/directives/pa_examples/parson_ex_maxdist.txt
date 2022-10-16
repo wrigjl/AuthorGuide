@@ -6,10 +6,8 @@
    The following program segment is a method that should return string array 
    that is in reverse order -- so {"b", "a", "z"} should return {"z", "a", "b"}.  
 
-   <p>
-      But, the blocks have been mixed up and include <b>two extra blocks</b> that 
-      are not needed in a correct solution.  
-   </p>
+   But, the blocks have been mixed up and include **two extra blocks** that 
+   are not needed in a correct solution.  
    -----
    public static String[] reverse(String[] arr) {
    =====

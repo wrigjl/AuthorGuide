@@ -1,4 +1,4 @@
-.. datafile:: poem.txt
+.. datafile:: poem_text
    :edit:
 
    Beware the Jabberwock, my son!

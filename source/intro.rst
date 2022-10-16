@@ -24,7 +24,10 @@ Authoring Tools
 
 What we did set out to make initially is a great set of interactive book authoring tools.  Our Big Hairy Audacious Goal was and is to become the LaTeX of the interactive textbook publishing world.  In the beginning writing an interactive textbook was equal parts writing and coding.  Runestone aims to remove the coding part so you can just focus on the writing.
 
-To accomplish this we have created a set of HTML components for things like multiple choice questions, interactive code, code visualizations and many more.  If you don't have a sense for what kinds of things you can do with Runestone Interactive you should take a look at `The Overview <https://runestone.academy/runestone/static/overview.html>`_.  When the page is loaded simple the HTML components are rendered by a bunch of JavaScript and CSS to create the Runestone Components you see in the interactive books.
+To accomplish this we have created a set of HTML components for things like multiple choice questions, interactive code, code visualizations and many more.
+If you don't have a sense for what kinds of things you can do with Runestone Interactive you should take a look at
+`The Overview <https://runestone.academy/ns/books/published/overview/index.html>`_.
+When the page is loaded simple the HTML components are rendered by a bunch of JavaScript and CSS to create the Runestone Components you see in the interactive books.
 
 But nobody wants to write books in HTML!  So, we created a set of extensions for a simple markup language called `restructuredText <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`_.  The restructuredText markup language lets you do all of the things you would expect to do in a language for writing, make lists, include images, footnotes, etc. etc.  In addition our extensions make it really easy to add   interactive components to your document.  For example to make an activecode component with runnable, editable code you would simply write the following in your text:
 
@@ -51,7 +54,12 @@ This three step process may seem complicated but it provides a lot of flexibilit
 
 The best thing is, you don't have to write an entire book to take advantage of the interactive tools.  You can use Runestone to make lecture demonstrations, or set up labs or short tutorials for your students.  If you do that you can even host them on your own computer very easily.
 
-Full documentation for all of the Runestone Components can be found at `The Runestone Home <http://runestoneinteractive.org/build/html/directives.html>`_   If you have a suggestion for a new interactive component, or would like to help with the development and documentation of the Runestone Components please visit our page on `Github <https://github.com/RunestoneInteractive/RunestoneComponents>`_. If you would like to help out with any of the books they are all freely available `on github <https://github.com/RunestoneInteractive>`_.
+Full documentation for all of the Runestone Components can be found on the :doc:`directives.rst` page.
+If you have a suggestion for a new interactive component,
+or would like to help with the development and documentation of the Runestone Components please visit our page on
+`Github <https://github.com/RunestoneInteractive/RunestoneComponents>`__.
+If you would like to help out with any of the books they are all freely available 
+`on github <https://github.com/RunestoneInteractive>`__ also.
 
 The Runestone Server
 --------------------
@@ -60,6 +68,6 @@ The last piece of the Runestone puzzle is the Runestone Server.  Most people can
 
 However there are a handful of others out there who for whatever reason, privacy concerns, scalability concerns, or just more control, want to run their own server.  This is good as it makes the server better and provides a small base of others who can help add features and fix bugs.
 
-The Runestone Server is built on top of the `web2py <http://web2py.com>`_ application framework.  I know, you've never heard of web2py, why would I do such a thing?  In 2011 it seemed like the right choice.  If I were starting again today it would definitely be a `Flask <http://www.pocoo.org/flask>`_ application.  I still hope to port everything to Flask one day.  But when I think about the opportunity cost of taking an entire summer to port the code versus using the summer to add new features to what is there, I lean heavily towards the new thing.  Eventually all of the bad decisions and shortcuts I've taken over the years will force me to do a rewrite.
+The Runestone Server is built on top of the `web2py <http://web2py.com>`_ application framework.  I know, you've never heard of web2py, why would I do such a thing?  In 2011 it seemed like the right choice.  If I were starting again today it would definitely be a `Flask <https://flask.palletsprojects.com>`_ application.  I still hope to port everything to Flask one day.  But when I think about the opportunity cost of taking an entire summer to port the code versus using the summer to add new features to what is there, I lean heavily towards the new thing.  Eventually all of the bad decisions and shortcuts I've taken over the years will force me to do a rewrite.
 
 If you're still with me, and are interested in helping out with server check out our `Github <https://github.com/RunestoneInteractive/RunestoneServer>`_ page, in particular have a look at the CONTRIBUTING document.

@@ -1,4 +1,4 @@
-.. datafile:: ex0.txt
+.. datafile:: ex0_text
    :rows: 5
    :cols: 60
 

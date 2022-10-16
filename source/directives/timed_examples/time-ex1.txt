@@ -1,7 +1,7 @@
 .. timed:: time-ex1
    :timelimit: 60
 
-   .. mchoice:: timed_mc_ex1.1
+   .. mchoice:: timed_mc_ex1_1
 
       What color is a stop sign?
 
@@ -21,7 +21,7 @@
 
           -   Not gray.
 
-   .. mchoice:: timed_mc_ex1.2
+   .. mchoice:: timed_mc_ex1_2
       :multiple_answers:
       :correct: a, c
       :answer_a: red

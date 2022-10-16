@@ -1,4 +1,4 @@
-.. datafile:: ex3.txt
+.. datafile:: ex3_text
    :edit:
    :rows: 5
    :cols: 40

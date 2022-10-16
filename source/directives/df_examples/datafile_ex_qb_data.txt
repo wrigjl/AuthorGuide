@@ -1,4 +1,4 @@
-.. datafile:: qbdata.txt
+.. datafile:: qbdata_text
    :rows: 40
    :cols: 70
 

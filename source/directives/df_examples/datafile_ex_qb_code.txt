@@ -1,9 +1,9 @@
 .. activecode:: df_ac_ex_qb
    :nocodelens:
-   :datafile: qbdata.txt
+   :datafile: qbdata_text
    :enabledownload:
 
-   qbfile = open("qbdata.txt", "r")
+   qbfile = open("qbdata_text", "r")
 
    for aline in qbfile:
        values = aline.split()

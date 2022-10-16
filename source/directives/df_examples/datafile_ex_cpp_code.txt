@@ -1,14 +1,14 @@
 .. activecode:: df_ac_ex_poem
    :language: cpp
    :compileargs: ['-Wall', '-Wextra', '-pedantic', '-std=c++11']
-   :datafile: poem.txt
+   :datafile: poem_text
    :enabledownload:
 
    #include <fstream>
    #include <iostream>
 
    int main () {
-     std::ifstream is("poem.txt");
+     std::ifstream is("poem_text");
      char c;
      while (is.get(c)) {
        std::cout << c;

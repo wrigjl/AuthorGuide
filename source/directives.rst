@@ -124,6 +124,6 @@ Helpful sites to learn about how to improve accessibility in Runestone ebooks in
  
 Here are some tools to evaluate the above standards:
  
-* https://www.w3.org/WAI/eval/Overview
+* https://www.w3.org/WAI/resources/#tools
  
 
