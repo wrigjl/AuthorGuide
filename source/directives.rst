@@ -1,3 +1,5 @@
+.. _directives:
+
 ==================================
 Runestone Directives Documentation
 ==================================
@@ -45,6 +47,12 @@ Assessments       .. toctree::
                      directives/polls
                      directives/short
                      directives/qnum
+
+Renderers         .. toctree::
+                     :titlesonly:
+
+                     directives/matrixeq
+                     directives/wavedrom
 ================= ===================================
 
 General Syntax

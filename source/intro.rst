@@ -54,7 +54,7 @@ This three step process may seem complicated but it provides a lot of flexibilit
 
 The best thing is, you don't have to write an entire book to take advantage of the interactive tools.  You can use Runestone to make lecture demonstrations, or set up labs or short tutorials for your students.  If you do that you can even host them on your own computer very easily.
 
-Full documentation for all of the Runestone Components can be found on the :doc:`directives.rst` page.
+Full documentation for all of the Runestone Components can be found on the :ref:`directives` page.
 If you have a suggestion for a new interactive component,
 or would like to help with the development and documentation of the Runestone Components please visit our page on
 `Github <https://github.com/RunestoneInteractive/RunestoneComponents>`__.
