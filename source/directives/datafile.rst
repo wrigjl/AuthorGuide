@@ -65,11 +65,6 @@ rows
     Set the height of the textarea.
     If not set, then Runestone will size the area to the contents, or provide a default.
 
-Languages supported
--------------------
-
-Python only at this time.
-
 Sphinx configuration options
 ----------------------------
 
